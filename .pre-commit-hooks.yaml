@@ -1,0 +1,6 @@
+- id: my-hook
+  name: My Custom Hook
+  description: This hook prints "first arg + My Hook!".
+  entry: ./scream.sh  # This is the script that runs
+  language: script
+  files: .*  # Run for all files when commit
